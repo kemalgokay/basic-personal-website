@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+
+header {background: black;color:white;}
+footer {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+<body >
+
+<div class="flex-container">
+<header>
+  <h1>Computer Engineer</h1>
+</header>
+
+<nav class="nav">
+<ul>
+  <li><a href="personal.html">Personal Information</a></li>
+  <li><a href="myproject.html">My Project</a></li>
+  <li><a href="mycarrer.html">Skills & Computer Skills</a></li>
+  <li><a href="mycover.html">My Coverletter</a></li>
+</ul>
+</nav>
+
+<article class="article">
+  <h1> PERSONAL INFORMATION AND EDUCATION</h1>
+
+  <p>
+  	
+  Place and Date of Birth: Seyhan/Adana 30/04/1992 Gender :Male
+Adress: Kadıköy/İstanbul
+
+ </p>
+<p>
+  Phone:+90 533 431 18 01
+</p>
+<p> 
+  Email: kemalgokaytopal@gmail.com
+</p>
+<p>
+    Web page: 
+  </p>
+
+  <p>
+    https://www.linkedin.com/in/kemal-gokay-topal-34b89753/ 
+  </p>
+
+  <p>
+    https://github.com/kemalgokay  
+
+  </p>
+
+  <p>
+    ❖ 2012 – 2017: Okan University-Bachelor / Istanbul, Turkey Department: Computer Engineering
+
+
+  </p>
+ <p>
+    ❖ 2006-2010: Hatay Fevzi Çakmak Anatolian High School Department: Sciences
+
+  </p>
+ 
+</article>
+
+<footer></footer>
+</div>
+
+</body>
+</html>
+

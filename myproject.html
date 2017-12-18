@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: black;color:white;}
+footer {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+<body >
+
+<div class="flex-container">
+<header>
+  <h1>Computer Engineer</h1>
+</header>
+
+<nav class="nav">
+<ul>
+  <li><a href="personal.html">Personal Information</a></li>
+  <li><a href="myproject.html">My Project</a></li>
+  <li><a href="mycarrer.html">Skills & Computer Skills</a></li>
+  <li><a href="mycover.html">My Coverletter</a></li>
+</ul>
+</nav>
+
+<article class="article">
+  <h1>PROJECTS</h1>
+  <p>
+  
+<p>‘Driverless cars Project’, ‘TUBITAK 1001 Project’, ‘Child Responsible’, ‘Medical Informatic Project’, ‘Communication Between Devices Project’, ‘Clustering for BigData’ , ‘ChatBot’ , ‘e-commerce Website’, ‘CRM Library Application’, ‘Walking room’, ‘Weather Application’,etc.  </p>
+<p>❖ ‘Driverless cars Project’, which is sponsored by Okan University.In this project,I had developer role and developed sensor driver.Like GNSS,GPS,Trimple and Lidar.I used MatLab.  </p>
+<p>❖ ‘TUBITAK 1001 Project’, is sponsored by Okan University and my thesis for graduation.In this project,I used technologies like java, image processing library(openCV),deep learning (neural networks) and machine learning.I had developer and organizer role.  </p>
+<p>❖ ‘Child Responsible’,this project is the project of software quality course.I used technologies like java, image processing library(openCV),deep learning (neural networks) and machine learning.This project is a mobile(Android) project  </p>
+<p>❖ ‘Medical Informatic Project’,this project is a pharmacy system.ın this project,I used Java Swing, graphical user interface,SQL server and clustering algorithm.   </p>
+<p>❖ ‘Communication Between Devices Project’, In the project,I used C# ,SQL Server ,N-tier architecture structure, and I developed a device communicating system.This project is a SOA project.  </p>
+<p>❖ ‘Clustering for BigData’, is a data mining project. I used Weka and clustering algorithm for big data.  </p>
+<p>❖ ‘ChatBot’,is a artificial intelligence project. I had role developer and I used Java and deep learning algorithm.  </p>
+<p>❖ ‘E-commerce’, is a web project.This project is an internship admission project. In this project, I had role developer.I used C# ,SQL server, ASP.Net and frameworks.  </p>
+<p>❖ ‘Walking room’, is a project of computer graphic.In this project,I used C++, openGL and unity.  </p>
+<p>❖ ‘Weather Application’, is mobile and native application.In this project,I used IBM Watson ,Google API and Java. 
+
+  </p>
+  
+</article>
+
+<footer></footer>
+</div>
+
+</body>
+</html>
+

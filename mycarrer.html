@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: black;color:white;}
+footer {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+<header>
+  <h1>Computer Engineer</h1>
+</header>
+
+<nav class="nav">
+<ul>
+  <li><a href="personal.html">Personal Information</a></li>
+  <li><a href="myproject.html">My Project</a></li>
+  <li><a href="mycarrer.html">Skills & Computer Skills</a></li>
+  <li><a href="mycover.html">My Coverletter</a></li>
+</ul>
+</nav>
+
+<article class="article">
+  <h1>Skills & Computer Skills</h1>
+  <p>
+  
+  Java ,C/C++/C# ,Microsoft SQL Server ,HTML,JavaScript ,
+  Linux(Ubuntu) MacOs ,Visual Studio ,Jira ,MS Project,Gantt Project ,
+  Eclipse(Java and C+ +),Netbeans ,Xcode ,Android Studio ,Weka OpenGL ,OpenCV
+  </p>
+  <p>
+  	
+  	SKILLS
+
+
+  </p>
+
+  <p>
+  	
+  	❖ Teamwork
+
+  </p>
+  <p>❖ Analytical Skills and Thinking</p>
+<p>	❖ Engineering</p>
+<p>❖ Report Writing</p>
+<p>❖ Product solution for complex system</p>
+<p>❖ Mobile App.</p>
+<p>❖ Research and Developement Skill</p>
+  
+</article>
+
+<footer></footer>
+</div>
+
+</body>
+</html>
+
